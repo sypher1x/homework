@@ -50,7 +50,7 @@
   ]
   })
 
-  <img width="352" height="132" alt="image" src="https://github.com/user-attachments/assets/45ba4b46-1bfa-4ca5-a62c-2d8f33777673" />
+  <img width="377" height="137" alt="image" src="https://github.com/user-attachments/assets/e6d6f180-daba-4995-a121-418e5a692992" />
 
 7. Выходим и проверяем:
   exit
