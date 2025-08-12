@@ -8,6 +8,8 @@
 ИИ подсказал, что можно поставить mongodb 5 версии, но заморачиваться не стал в этот раз - создал виртуалку
 на Яндексе.
 
+<img width="1849" height="211" alt="image" src="https://github.com/user-attachments/assets/f8991242-99ea-4256-9f42-6d760307859c" />
+
 1. Импортировал ключ:
   curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
   sudo gpg --dearmor -o /usr/share/keyrings/mongodb-server-7.0.gpg
@@ -18,10 +20,12 @@
   | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
 
 3. Обновил список пакетов и установил mongodb:
+   
   sudo apt update
+
   sudo apt install -y mongodb-org
 
-4. Проверил:
+5. Проверил:
  mongod --version
 
  <img width="599" height="234" alt="image" src="https://github.com/user-attachments/assets/026e78bd-f3b0-4ae4-89e5-5c79efd9a024" />
