@@ -1,5 +1,3 @@
-<img width="522" height="224" alt="image" src="https://github.com/user-attachments/assets/ffb8b1c3-2a7f-4d48-b531-2f6740d5cd2e" />
-
 Сначала попытался выполнить задание через VirtualBox (Ubunty 24.04)
 
 По итогу не получилось, потому что mongodb версии 6+ требует AVX для процессора, в VirtualBox вроде настройку включил,
