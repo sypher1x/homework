@@ -53,7 +53,9 @@
   <img width="377" height="137" alt="image" src="https://github.com/user-attachments/assets/e6d6f180-daba-4995-a121-418e5a692992" />
 
 7. Выходим и проверяем:
+   
   exit
+
   mongosh -u manager_5 -p 123 --authenticationDatabase "homework"
 
   (Долго не мог понять, почему даю роль только на read - и всё равно остается возможность делать запись. Оказалось, нужно 
@@ -65,6 +67,7 @@
   И всё заработало)
 
   use homework
+  
   db.homework_5.find()
   
   <img width="598" height="59" alt="image" src="https://github.com/user-attachments/assets/3cd3e31d-67c5-491b-83c4-9613d9e6cf7f" />
